@@ -1,0 +1,436 @@
+/** flex = display only flex. **/
+.flex {
+    display: flex;
+}
+
+/** flex-wrap = display flex and wrap on **/
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/** fd-c = it means flex-direction in column wise **/
+.fd-c {
+    display: flex;
+    flex-direction: column;
+}
+
+/** inline = it means display is inline **/
+.inline-b {
+    display: inline-block;
+}
+
+/** flex-center = it means justify-content & align-items is center. **/
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** flex-left = it means justify-content is left & align-item is center. **/
+.flex-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/** flex-sb = it means justify-content is space-between & align-item is center. **/
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/** flex-sa = it means justify-content is space-around & align-item is center. **/
+.flex-sa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/** flex-sa = it means justify-content is space-around & align-item is center. **/
+.flex-sa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/** grid **/
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/** grid-cr = grid-template columns and grid-template rows are set 50% in both side **/
+.grid-cr {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 100%;
+}
+
+/** grid-step = grid-column **/
+.grid-step {
+    display: grid;
+    grid-template-areas: 1/2;
+}
+
+/** .br-n = background-repeat (no-repeat) **/
+.br-n {
+    background-repeat: no-repeat;
+}
+
+/** cg-1 = column gap 1rem **/
+.cg-1 {
+    column-gap: 1rem;
+}
+
+/** cg-8 = column gap 0.5rem **/
+.cg-8 {
+    column-gap: 0.5rem;
+}
+
+/** cg-5 = column gap 0.31rem (5 px) **/
+.cg-5 {
+    column-gap: 0.31rem;
+}
+
+/** rg-8 = row gap 0.5 rem **/
+.rg-8 {
+    row-gap: 0.5rem;
+}
+
+/** w-53 = width 53% **/
+.w-53 {
+    width: 53%;
+}
+
+/** w-45 = width 45% **/
+.w-45 {
+    width: 45%;
+}
+
+/** w-50 = width 50% **/
+.w-50 {
+    width: 50%;
+}
+
+/** w-51 = width 51% **/
+.w-51 {
+    width: 51%;
+}
+
+/** mt-24 = margin-top 24 px = 1.5 rem **/
+.mt-24 {
+    margin-top: 1.5rem;
+}
+
+/** mt-48 = margin-top 48 px = 3 rem **/
+.mt-48 {
+    margin-top: 3rem;
+}
+
+/** mt-72 = margin-top 72 px = 4.5 rem **/
+.mt-72 {
+    margin-top: 4.5rem;
+}
+
+/** mt-88 = margin-top 88 px = 5.5 rem **/
+.mt-88 {
+    margin-top: 5.5rem;
+}
+
+/** mt-16 = margin-top 16 px = 1 rem **/
+.mt-16 {
+    margin-top: 1rem;
+}
+
+/** mt-8 = margin-top 8 px = 0.5 rem **/
+.mt-8 {
+    margin-top: 0.5rem;
+}
+
+/** m-16 = margin-bottom 16 px (16px= 1 rem)**/
+.mb-16 {
+    margin-bottom: 1rem;
+}
+
+/** m-32 = margin-bottom 32 px **/
+.mb-32 {
+    margin-bottom: 2rem;
+}
+
+/** bold = fontweight- bold **/
+.bold {
+    font-weight: bold;
+}
+
+/** mt-2 = marginTop-2.1rem **/
+.mt-2 {
+    margin-top: 2.1rem;
+}
+
+/** bw = background white **/
+.bw {
+    background-color: white;
+}
+
+/** fixed = it means position is fixed **/
+.fixed {
+    position: fixed;
+}
+
+/* cb = color black */
+.cb {
+    color: black;
+}
+
+/* cw = color white */
+.cw {
+    color: white;
+}
+
+/** w-15 = width- 15% **/
+.w-15 {
+    width: 15%;
+}
+
+/** w-20 = width- 20% **/
+.w-20 {
+    width: 20%;
+}
+
+/** w-75 = width- 75% **/
+.w-75 {
+    width: 75%;
+}
+
+/** w-25 = width- 25% **/
+.w-25 {
+    width: 25%;
+}
+
+/** fs-14 = fontsize-14px **/
+.fs-14 {
+    font-size: 0.85rem;
+}
+
+/** fs-12 = fontsize-12px **/
+.fs-12 {
+    font-size: 0.75rem;
+}
+
+/** fs-13 = fontsize-13px **/
+.fs-13 {
+    font-size: 0.81rem;
+}
+
+/** fs-16 = font size - 16px(1rem = 16px)**/
+.fs-16 {
+    font-size: 1rem;
+}
+
+/** fs-19 = font size - 19px(1.20rem = 19px)**/
+.fs-19 {
+    font-size: 1.20rem;
+}
+
+/** fs-24 = font size  - 24px **/
+.fs-24 {
+    font-size: 1.5rem;
+}
+
+/* fw-400 = font weight-400 */
+.fw-400 {
+    font-weight: 400;
+}
+
+/* fw-500 = font weight-500 */
+.fw-500 {
+    font-weight: 500;
+}
+
+/** lh-24 = line-height 24px **/
+.lh-24 {
+    line-height: 1.5rem;
+}
+
+/* bu = background underline */
+.bu:hover {
+    text-decoration: underline;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+
+/* scc = simple color change */
+.scc :hover {
+    color: #8a8ae9;
+}
+
+/* cp = cursor pointer */
+.cp {
+    cursor: pointer;
+}
+
+/* cz-i = cursor zoom-in */
+.cz-i {
+    cursor: zoom-in;
+}
+
+/** u-700 = underline fontweight-700 **/
+.u-700 {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/** li-none = list style = none **/
+.li-none {
+    list-style: none;
+}
+
+/** fb = footer background **/
+.fb {
+    background-color: #f9f9f9;
+}
+
+/** w-100 = width 100% **/
+.w-100 {
+    width: 100%;
+}
+
+/** w-40 = width 40% **/
+.w-40 {
+    width: 40%;
+}
+
+/** w-40 = width 40% **/
+.w-46 {
+    width: 40%;
+}
+
+/** w-30 = width 30% **/
+.w-30 {
+    width: 30%;
+}
+
+/** w-38 = width-38px(2.4rem) **/
+.w-38 {
+    width: 2.4rem;
+}
+
+/** h-38 = height-38px(2.4rem) **/
+.h-38 {
+    height: 2.4rem;
+}
+
+/** h-100 = height 100% **/
+.h-100 {
+    height: 100%;
+}
+
+/** h-163 = height 10.81rem **/
+.h-163 {
+    height: 10.81;
+}
+
+/** bg-blue = backgroundcolor-blue(4b84f3) **/
+.bg-blue {
+    background-color: #4b84f3;
+}
+
+/** .br-3 = border-radius-3rem (48px) **/
+.br-3 {
+    border-radius: 3rem;
+}
+
+/** .br-50 = border-radius-50% **/
+.br-50 {
+    border-radius: 50%;
+}
+
+/** .b-n= border-none **/
+.b-n {
+    border: none;
+}
+
+/** p-8-16= padding top-bottom(8px) right-left(16px) **/
+.p-8-16 {
+    padding: 0.5rem 1rem;
+}
+
+/** ptb-24= padding top-bottom(24px)**/
+.ptb-24 {
+    padding: 1.5rem 0rem;
+}
+
+/** ptb-8= padding top-bottom(8px)**/
+.ptb-8 {
+    padding: 0.5rem 0rem;
+}
+
+/** ptb-56= padding top-bottom(56px)**/
+.pb-56 {
+    padding-bottom: 3.5rem;
+}
+
+
+/** prl-16= padding right-left(16px)**/
+.prl-16 {
+    padding: 0rem 1rem;
+}
+
+/** td-n = text-decoration-none **/
+.td-n {
+    text-decoration: none;
+}
+
+/** obf-cov = object-fit = cover **/
+.obf-cov {
+    object-fit: cover;
+}
+
+/** obf-cov-g = object-fit = cover (height and width given in the class.) **/
+.obf-cov-g {
+    width: 20rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+/** bs-con = background size (contain) **/
+.bs-con {
+    background-size: contain;
+}
+
+/** p-re = position (relative) **/
+.p-re {
+    position: relative;
+}
+
+/** hw-20 = height width-20px (1.25rem) **/
+.hw-20 {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+/** zi-neg = it means z-index (-1rem) **/
+.zi-neg {
+    z-index: 1rem;
+}
+
+/** profile-photo-72px = it means profile-photo class changes into image with height and width of 72px  **/
+.profile-photo-72px {
+    height: 4.5rem;
+    width: 4.5rem;
+    background-image: url(https://miro.medium.com/v2/resize:fill:88:88/1*YroCtVizChREdt5Lfn4vEg.jpeg);
+    border: 0.8px solid #b4b4b4;
+}
+
+/** profile-linker-32px = it means profile-linker class changes into image with height and width of 32px  **/
+.profile-linker-32px {
+    height: 2rem;
+    width: 2rem;
+    background-image: url(https://miro.medium.com/v2/resize:fill:48:48/1*5D9oYBd58pyjMkV_5-zXXQ.jpeg);
+
+    right: 0.4rem;
+    bottom: -1.2rem;
+}
