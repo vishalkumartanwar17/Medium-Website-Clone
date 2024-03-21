@@ -128,6 +128,42 @@ contentarea h1 {
     border: 0.8px solid #b4b4b4;
 }
 
+.profile-photo-2 {
+    height: 2.9rem;
+    width: 2.9rem;
+    border-radius: 50%;
+    background-image: url(https://miro.medium.com/v2/resize:fill:29:29/1*shFuXtkBu9viAG261Fg2iA.png);
+    background-size: contain;
+    border: 0.8px solid #b4b4b4;
+}
+
+.profile-photo-3 {
+    height: 2.9rem;
+    width: 2.9rem;
+    border-radius: 50%;
+    background-image: url(https://miro.medium.com/v2/resize:fill:29:29/1*kmflHCCpj1_qrGGBdH3BJA.png);
+    background-size: contain;
+    border: 0.8px solid #b4b4b4;
+}
+
+.profile-photo-4 {
+    height: 2.9rem;
+    width: 2.9rem;
+    border-radius: 50%;
+    background-image: url(https://miro.medium.com/v2/resize:fill:29:29/1*IAGUEM1S4j27Rl8b-JwZdg.jpeg);
+    background-size: contain;
+    border: 0.8px solid #b4b4b4;
+}
+
+.profile-photo-5 {
+    height: 2.9rem;
+    width: 2.9rem;
+    border-radius: 50%;
+    background-image: url(https://miro.medium.com/v2/resize:fill:29:29/1*2vLaXGHM5TiuaU91X0ACjg.jpeg);
+    background-size: contain;
+    border: 0.8px solid #b4b4b4;
+}
+
 .profile-linker {
     height: 1.5rem;
     width: 1.5rem;

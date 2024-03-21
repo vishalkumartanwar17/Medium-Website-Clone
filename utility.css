@@ -219,6 +219,11 @@
     font-size: 0.75rem;
 }
 
+/** fs-11 = fontsize-11px **/
+.fs-11 {
+    font-size: 0.72rem;
+}
+
 /** fs-13 = fontsize-13px **/
 .fs-13 {
     font-size: 0.81rem;
@@ -249,6 +254,11 @@
     font-weight: 500;
 }
 
+/** lh-20 = line-height 20px **/
+.lh-20 {
+    line-height: 1.35rem;
+}
+
 /** lh-24 = line-height 24px **/
 .lh-24 {
     line-height: 1.5rem;
@@ -256,6 +266,19 @@
 
 /* bu = background underline */
 .bu:hover {
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+/* bl = background light color */
+.bl:hover {
+    background-color: #3669cbf2;
+    cursor: pointer;
+}
+
+/** .su = it means special underline below **/
+.su {
     text-decoration: underline;
     font-weight: 500;
     color: black;
@@ -368,9 +391,14 @@
     padding: 0.5rem 0rem;
 }
 
-/** ptb-56= padding top-bottom(56px)**/
+/** pb-56= padding bottom(56px)**/
 .pb-56 {
     padding-bottom: 3.5rem;
+}
+
+/** ptb-100= padding bottom(100px)**/
+.pb-100 {
+    padding-bottom: 6.25rem;
 }
 
 
@@ -404,6 +432,11 @@
 /** p-re = position (relative) **/
 .p-re {
     position: relative;
+}
+
+/** p-a = position (absolute) **/
+.p-a {
+    position: absolute;
 }
 
 /** hw-20 = height width-20px (1.25rem) **/
