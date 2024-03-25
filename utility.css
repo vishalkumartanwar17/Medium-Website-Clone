@@ -249,6 +249,11 @@
     font-weight: 400;
 }
 
+/* fw-n = font weight-none */
+.fw-n {
+    font-weight: none;
+}
+
 /* fw-500 = font weight-500 */
 .fw-500 {
     font-weight: 500;
