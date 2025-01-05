@@ -94,6 +94,11 @@
     column-gap: 0.31rem;
 }
 
+/** cg-14 = column gap 0.8rem (14 px) **/
+.cg-14{
+    column-gap: 0.8rem;
+}
+
 /** rg-8 = row gap 0.5 rem **/
 .rg-8 {
     row-gap: 0.5rem;
@@ -417,6 +422,10 @@
     text-decoration: none;
 }
 
+/* ta-center = textalign-center */
+.ta-center{
+    text-align: center;
+}
 /** obf-cov = object-fit = cover **/
 .obf-cov {
     object-fit: cover;
